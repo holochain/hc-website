@@ -1,0 +1,9 @@
+{
+  "name": "Front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
