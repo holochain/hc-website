@@ -467,6 +467,13 @@ clean-css@^4.1.11:
   dependencies:
     source-map "~0.6.0"
 
+clean-css@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.1.0.tgz#f3cc8ba900ab23b316e753330d15425149be36f1"
+  integrity sha512-98ALLW4NOhZpvUEoSc2dJO23xE4S4SXc4mLieCVFGo8DNLTFQ3gzi7msW1lqSYJeGZSF5r5+W3KF6cEnkILnFQ==
+  dependencies:
+    source-map "~0.6.0"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
