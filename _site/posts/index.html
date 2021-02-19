@@ -3,7 +3,7 @@
         <title>Eleventy + Netlify CMS Blog Example</title>
         
         <style>
-            body{color:#00f;font-family:fantasy}.baseTitle{color:#663399}
+            body{color:#00f;font-family:fantasy}.baseTitle{color:#663399}.postList{width:100%;display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-evenly}.postFromList{display:flex;flex-direction:column;width:40%}.imagePostList{width:30%}
         </style>
     </head>
 
@@ -12,9 +12,9 @@
             Eleventy + Netlify CMS Blog Example
         </h1>
         
-<ul>
+<div class="postList">
     
-        <>
+        <div class="postFromList">
             <strong>
                 <a href="/posts/myFirstPost/">My first post</a>
             </strong>
@@ -22,8 +22,31 @@
             <span>
                 The first post on the Eleventy + Netlify CMS from scratch blog
             </span>
-        </>
+            <img class="imagePostList" src="/images/uploads/image1.jpg" alt="/images/uploads/image1.jpg"></img>
+        </div>
     
-</ul>
+        <div class="postFromList">
+            <strong>
+                <a href="/posts/2021-02-17-el-tests/">EL tests</a>
+            </strong>
+            -
+            <span>
+                Hoollasaasasdasd
+            </span>
+            <img class="imagePostList" src="/images/uploads/side2.jpg" alt="/images/uploads/side2.jpg"></img>
+        </div>
+    
+        <div class="postFromList">
+            <strong>
+                <a href="/posts/2021-02-18-test-de-ejemplo/">Test de ejemplo</a>
+            </strong>
+            -
+            <span>
+                No sé que decir
+            </span>
+            <img class="imagePostList" src="/images/uploads/image.1.jpg" alt="/images/uploads/image.1.jpg"></img>
+        </div>
+    
+</div>
     </body>
 </html>

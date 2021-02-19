@@ -1,6 +1,6 @@
-<ul>
+<div class="postList">
     {% for post in postslist %}
-        <>
+        <div class="postFromList">
             <strong>
                 <a href="{{ post.url | url }}">{{ post.data.title }}</a>
             </strong>
@@ -8,6 +8,7 @@
             <span>
                 {{ post.data.description }}
             </span>
-        </>
+            <img class="imagePostList" src="{{post.data.featuredImage}}" alt="{{post.data.featuredImage }}"></img>
+        </div>
     {% endfor %}
-</ul>
+</div>
